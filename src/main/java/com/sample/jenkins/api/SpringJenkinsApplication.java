@@ -19,6 +19,7 @@ public class SpringJenkinsApplication {
 	
 	public static void main(String[] args) {
 		logger.info("Aplicación ejecutada...");
+		logger.info("Aplicación ejecutada segunda...");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
